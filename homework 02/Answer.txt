@@ -1,0 +1,13 @@
+Answer to question 1) True
+
+Answer to question 2) True
+
+Answer to question 3) False
+
+Answer to question 4) 5
+
+Answer to question 5) True
+
+Answer to question 6) 0
+
+Answer to question 7) Arr is not defined
