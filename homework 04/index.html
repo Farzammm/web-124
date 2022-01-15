@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./line-awesome/css/line-awesome.min.css">
+    <link rel="icon" href="./images/logo.png">
+    <title>Rock|Paper|Scissors</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-4 mb-4" id="round">ROUND</h1>
+        <div class="row justify-content-between">
+            <h3 id="win" class="text-success">WIN 0</h3>
+            <h3 id="equal" class="text-info">EQUAL 0</h3>
+            <h3 id="lose" class="text-danger">LOSE 0</h3>
+        </div>
+
+
+            <div id="output" class="row justify-content-between mb-2">
+                <img src="./images/rock-1.jpg">
+                <img src="./images/rock-2.jpg">
+            </div>
+            <div id="try">
+                <h2 class="text-center text-secondary">try</h2>
+            </div>
+
+        <button class="btn btn-warning" type="button" onclick="rock()"><i class="las la-hand-rock la-3x"></i></button>
+        <button class="btn btn-warning mx-1" type="button" onclick="paper()"><i class="las la-hand-paper la-3x"></i></button>
+        <button class="btn btn-warning" type="button" onclick="scissors()"><i class="las la-hand-scissors la-3x"></i></button>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
