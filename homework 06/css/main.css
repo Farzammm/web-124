@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(rgba(125, 253, 20, 0.8),rgba(125, 253, 20, 0.8)) ,url(../images/bg.jpg);
+}
+
+.my-card {
+    display: inline-block;
+    width: 2.3em;
+    height: 3.6em;
+    border: 1px solid #666;
+    border-radius: .3em;
+    padding: .25em;
+    margin: 0 .5em .5em 0;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    position: relative;
+    background-color: #fff;
+    box-shadow: .2em .2em .5em #333;
+}
+
+.font-s {
+    font-size: 27px;
+}
+
+h4 {
+    width: 6.8em;
+    margin: 0 .5em .5em 0;
+    padding: .25em;
+    background-color: rgb(77, 43, 122);
+    border-radius: 7px;
+    color: white;
+    display: block;
+}
+
+h4.player-2 {
+    background-color: rgb(122, 43, 43);
+}
+
+h4.player-3 {
+    background-color: rgb(122, 43, 89);
+}
+
+h4.player-4 {
+    background-color: rgb(122, 94, 43);
+}
